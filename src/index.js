@@ -8,8 +8,7 @@ import { Provider } from 'react-redux'
 import axios from "axios"
 import {BrowserRouter} from "react-router-dom"
 
-///   https://alarmstonelight-default-rtdb.europe-west1.firebasedatabase.app/arrays
-////  https://tryredux-default-rtdb.europe-west1.firebasedatabase.app/1/.json
+
 
 let store
 let z = 0
@@ -55,8 +54,7 @@ let z = 0
 
         const store =createStore(rootReducer)
 
-       // console.log(store);
-      // console.log(store.getState(),"getState");
+
     
             ReactDOM.render(
               <BrowserRouter>
